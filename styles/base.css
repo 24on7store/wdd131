@@ -1,0 +1,134 @@
+header h1 {
+    background-color: rgba(0, 21, 139, 0.79);
+    color: white;
+    text-align: center;
+    size: 15px;
+    font-size: 20px;
+    font: 1em sans-serif;
+    padding: 10px;
+
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.781);
+    bottom: 16px;
+    position: relative;
+    text-align: center;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 4px 50px;
+
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.my-info h2 {
+    background-color: rgba(0, 21, 139, 0.79);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 40%;
+
+    /* margin-right: 500px; */
+    
+}
+
+.profile-pic {
+    width: 150px;
+    length: 700px;
+    position: relative;
+    float: right;
+    /* right: 550px; */
+    right: 45%;
+}
+
+.web-resources h3 {
+    background-color: rgba(0, 21, 139, 0.79);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 61%;
+    text-align: right;
+    margin-top: -160px;
+    text-align: center; 
+}
+
+/* .web-resources{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 59%;
+    
+    
+} */
+
+.dev{
+    margin-left: 70%;
+    text-align: center;
+    
+}
+
+
+/* .dev-section ul li{
+    padding: 5px;
+    border-radius: 5px;
+    text-align: right;
+    margin-top: 700px;
+    text-align: center;
+
+} */
+
+
+hr {
+    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 40%;
+}
+
+.city h2 {
+    margin-right: 40%;
+    text-align: center;
+}
+.city p {
+    margin-left: 30%;
+}
+
+.flag{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    float: left;
+    left: 200px;
+}
+
+.note{
+    color: black;
+    font-style: italic;
+    position: relative;
+    float: left;
+    right: 160px;
+    bottom: 35px;
+}
+
+footer{
+    background-color: rgba(0, 21, 139, 0.79);
+}
+
+
+.last{
+    color: white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#lastModified{
+    color: yellow;
+}
