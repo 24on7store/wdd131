@@ -66,7 +66,7 @@ header h1 {
     display: flex;
 }
 
-.web-resources h3 {
+.web-resources h2 {
     background-color: rgba(0, 21, 139, 0.79);
     color: white;
     padding: 5px;
@@ -116,7 +116,7 @@ hr {
     margin-right: 40%;
 }
 
-.city h3 {
+.city h2 {
     margin-right: 40%;
     text-align: center;
     font-size: x-large;
@@ -226,7 +226,7 @@ footer{
         display: flex;
     }
     
-    .web-resources h3 {
+    .web-resources h2 {
         background-color: rgba(0, 21, 139, 0.79);
         color: white;
         padding: 5px;
@@ -275,7 +275,7 @@ footer{
         margin-right: 40%;
     }
     
-    .city h3 {
+    .city h2 {
         margin-right: 40%;
         text-align: center;
     }
