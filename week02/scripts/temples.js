@@ -9,6 +9,11 @@ lastModifiedParagraph.innerHTML = 'Last Modification: ' + lastModifiedDate;
 
 
 
+
+
+
+
+
 var navBar = document.getElementById("navBar");
 
 function showMenu(){
