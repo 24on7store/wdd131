@@ -68,7 +68,7 @@ header{
     font-weight: 800;
 }
 
-.photos1, photos2, photos3{
+.photos1, .photos2, .photos3{
     width: 100%;
     height: auto;
     display: grid;
