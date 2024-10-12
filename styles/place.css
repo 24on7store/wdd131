@@ -1,4 +1,21 @@
+@media only screen and (min-width: 768px) {
 
+    :root {
+        --primary-color: blue;
+        --secondary-color: red;
+    }
+    
+
+    body {
+        background-color: var(--primary-color);
+    }
+    
+    h1 {
+        color: var(--secondary-color);
+    }
+    
+
+}
 body{
     height: 100%;
     /* margin: 5px; */
