@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="Learn about Istanbul, this is a WDD 131: Dynamic
+    Web Fundamentals assignment">
+    <meta name="author" content="Mackison Jean Pierre">
+    <link rel="stylesheet" href="week04/styles/filtered-temples.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <header>
+        <section class="header-section">
+            <!--<img class="profile-pic" src="images/profile2.jpg" alt="Mackison's Photo"> -->
+            <h1> Temple Album</h1>
+        </section>
+
+        <!-- <nav  class="navbar" id="navBar"> -->
+        <nav>
+            <div class="navbar" id="navBar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+                <!-- <ul class="nav-links" id="navLinks"> -->
+                    <ul>
+                    <!-- <ul class="nav-links"> -->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Old</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Large</a></li>
+                    <li><a href="#">Small</a></li>
+                    <!-- <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#" id="old">Old</a></li>
+                    <li><a href="#" id="new">New</a></li>
+                    <li><a href="#" id="large">Large</a></li>
+                    <li><a href="#" id="small">Small</a></li> -->
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+    </header>
+
+
+    <main>
+        <h2 class="second">Home</h2> 
+
+        <!--First row-->
+        <div class="cover">
+        </div>
+    </main>
+
+
+<footer class="last">
+    <p>&copy; 2024 &#x1F64F; Mackison <b>JEAN PIERRE</b> &#x1F64F;| Haiti <span id="copyright"></span></p>
+    <p id="lastModified"></p>
+</footer>
+
+<script src="week04/scripts/temple.js" defer></script>
+<!-- <script src="scripts/temples.js" defer></script> -->
+
+<!-- JavaScript for toggle menu -->
+<!-- <script>
+    var navBar = document.getElementById("navBar");
+
+    function showMenu(){
+        navBar.style.right = "0";
+    }
+
+    function hideMenu(){
+        navBar.style.right = "-200px";
+    }
+</script> -->
+
+
+</body>
+</html>
