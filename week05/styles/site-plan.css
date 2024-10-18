@@ -1,0 +1,158 @@
+
+
+*{
+    
+    height: auto;
+    width: 100%;
+    margin: 2px;
+    padding: 1px;
+}
+
+
+
+
+
+header{
+    background-color: #0040ff;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+header h1, header p{
+    color: wheat;
+    text-align: center;
+}
+
+
+.header-img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+main{
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    text-align: center;
+}
+
+.row1{
+    padding-bottom: 30px;
+}
+
+.row1 h2{
+    color: #0040ff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.row1 h3{
+    color: red;
+    font-size: 25px;
+}
+
+.row1 p{
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height:  1.4rem;
+    padding-bottom: 20px;
+} 
+
+
+.row2{
+    padding-bottom: 30px;
+}
+
+.row2 h3{
+    color: #0040ff;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.row2 p{
+    font-size: 15px;
+    word-spacing: 2px;
+    line-height:  1.4rem;
+    padding-bottom: 30px;
+} 
+
+
+.row3 h2{
+    color: #0040ff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.row3 h3{
+    color: red;
+    font-size: 25px;
+}
+
+.row3 img{
+    width: 250px;
+    height: auto;
+    border: 5px solid #0040ff; 
+    margin-bottom: 30px;
+} 
+
+
+
+.colors{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin-left: 105px;
+    
+}
+
+table, th, td{
+    border: 1px solid #0040ff;
+}
+
+.primary{
+    background-color: #0040ff;
+    color: white;
+}
+.second{
+    background-color: red;
+    color: white;
+}
+.third{
+    background-color: black;
+    color: white;
+}
+.fourth{
+    background-color: white;
+    color: black;
+}
+
+.all{
+    color: #0040ff;
+    padding: 15px;
+    line-height: 2rem;
+}
+
+
+
+footer{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: red;
+}
+
+.mobile{
+    margin-top: 30px;
+
+}
+.wire{
+    background-color: #0040ff;
+    width: 100%;
+    height: auto;
+}
+.wire2{
+    background-color: #0040ff;
+    width: 450px;
+    height: auto;
+}
