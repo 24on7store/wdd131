@@ -52,6 +52,7 @@ h1{
 }
 
 
+
 /* .header-pic{
     
     position: relative;
@@ -81,7 +82,7 @@ h1{
 .info{
     position: relative;
     top: -540px;
-    background-color: white;;
+    background-color: white;
     margin-left: 35px;
     width: 265px;
     /* padding-top: 0; */
@@ -199,6 +200,19 @@ footer p{
     margin-bottom: 20px;
 }
 
+#copyright{
+    color: white;
+    background-color: blue;
+}
+footer b::after {
+    content: "🙏"; 
+    font-size: 1.2rem;
+}
+
+footer b::before {
+    content: "🙏"; 
+    font-size: 1.2rem;
+}
 
 
 
