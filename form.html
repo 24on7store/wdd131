@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review</title>
+    <meta name="description" content="Showing a form of review">
+    <meta name="author" content="Mackison Jean Pierre">
+    <link rel="stylesheet" href="week05/styles/styles.css">
+</head>
+<body>
+    <h1>Product Review</h1>
+
+    <form method="get" action="review.html">
+        <label for="productName"><b>Product Name</b></label>
+
+        <select 
+        id="productName" name="productName" required>
+            <option value="" disabled selected>Select a Product ...</option>
+        </select>
+
+        <label><b>Overall Rating</b></label>
+        <div class="stars">
+            
+            <label for="star1">☆</label>
+    
+            <label for="star1">☆☆</label>
+        
+            <label for="star1">☆☆☆</label>
+            
+            <label for="star1">☆☆☆☆</label>
+            
+            <label for="star1">☆☆☆☆☆</label>
+        </div>
+ 
+        <div class="radio-buttons">
+            <input type="radio" id="star1" name="rating" value="1" required>
+            <input type="radio" id="star2" name="rating" value="1" required>
+            <input type="radio" id="star3" name="rating" value="1" required>
+            <input type="radio" id="star4" name="rating" value="1" required>
+            <input type="radio" id="star5" name="rating" value="1" required>
+
+            <!-- <input type="radio" id="star1" name="rating" value="1" required>
+            <label for="star1">☆</label>
+            <input type="radio" id="star1" name="rating" value="1" required>
+            <label for="star1">☆☆</label>
+            <input type="radio" id="star1" name="rating" value="1" required>
+            <label for="star1">☆☆☆</label>
+            <input type="radio" id="star1" name="rating" value="1" required>
+            <label for="star1">☆☆☆☆</label>
+            <input type="radio" id="star1" name="rating" value="1" required>
+            <label for="star1">☆☆☆☆☆</label> -->
+            <!-- Repeat for 2-5 stars -->
+        </div>
+
+        <label for="date"><b>Date of Installation</b></label>
+        <input type="date" id="date" name="date" required>
+
+
+        <!-- <div class="checkbox">
+        <label><b>Which features did you find useful in the product?</b> <br> <i>(Check all that apply)</i></label>
+        <label>Useful Features</label> 
+        <input type="checkbox" id="durability" name="features" value="Durability"> Durability <br>
+        <input type="checkbox" id="durability" name="features" value="Durability"> Ease of Use <br>
+        <input type="checkbox" id="durability" name="features" value="Durability"> Performance <br>
+        <input type="checkbox" id="durability" name="features" value="Durability"> Design <br>
+        </div> -->
+        <div class="checkbox">
+            <label><b>Which features did you find useful in the product?</b> <br> <i>(Check all that apply)</i></label><br>
+            <input type="checkbox" id="durability" name="features" value="Durability">
+            <label for="durabil">Durability</label><br>
+            
+            <input type="checkbox" id="ease-of-use" name="features" value="Ease of Use">
+            <label for="ease-of">Ease of Use</label><br>
+            
+            <input type="checkbox" id="performance" name="features" value="Performance">
+            <label for="performance">Performance</label><br>
+            
+            <input type="checkbox" id="design" name="features" value="Design">
+            <label for="design">Design</label><br>
+        </div>
+        
+        <!-- Repeat for other features -->
+
+        <label for="review"><b class="review">Written Review</b> <i id="italic">(Optional)</i></label> <br>
+        <textarea id="review" name="review"></textarea> <br>
+
+        <label for="userName"> <b>Your Name</b> <i id="italic">(Optional)</i></label> <br>
+        <input type="text" id="userName" name="userName"> <br>
+
+        <input id="post-review" type="submit" value="Post Review"> <br>
+    </form>
+
+    <!-- <footer>©2024 Your Name | Last Modification: 02/26/2024</footer> -->
+    <footer class="last">
+        <p>&copy; 2024 &#x1F64F; Mackison <b>JEAN PIERRE</b> &#x1F64F;| Haiti <span id="copyright"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="week05/scripts/script.js"></script>
+</body>
+</html>

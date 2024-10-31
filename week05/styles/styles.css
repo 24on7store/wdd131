@@ -1,0 +1,201 @@
+*{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    margin: 2px;
+}
+
+h1{
+    background-color: #4b0082;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+h1{
+    color: white;
+    font-size: 35px;
+}
+
+select{
+    height: 35px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.stars {
+    display: flex;
+    gap: 0; /* Space between each star rating */
+    align-items: center;
+}
+
+/* .stars label {
+    cursor: pointer;
+    font-size: 1.5em; 
+} */
+
+
+.radio-buttons {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+
+#star1 {
+    accent-color: blue; 
+    position: relative;
+    right: 29px;
+}
+#star2 {
+    accent-color: blue; 
+    position: relative;
+    right: 27px;
+}
+#star3 {
+    accent-color: blue; 
+    position: relative;
+    right: 18px;
+}
+#star4 {
+    accent-color: blue; 
+    position: relative;
+    right: 9px;
+}
+#star5 {
+    accent-color: blue; 
+    position: relative;
+    right: 4px;
+}
+
+#date{
+    height: 35px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+.checkbox{
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+#italic{
+    color: blue;
+}
+
+textarea{
+    height: 100px;
+    background-color: white;
+    margin-bottom: 25px;
+    align-items: center;
+    width: 100%;
+    max-width: 390px;
+}
+
+#userName{
+    height: 35px;
+    margin-bottom: 25px;
+    background-color: white
+}
+
+#post-review{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+#durability{
+    position: relative;
+    top: 5px;
+    background-color: blue;
+    color: #4b0082;
+    width: 20px;
+    height: 20px;
+    
+}
+
+#ease-of-use{
+    position: relative;
+    top: 5px;
+    background-color: blue;
+    color: #4b0082;
+    width: 20px;
+    height: 20px;
+    
+}
+#performance{
+    position: relative;
+    top: 5px;
+    background-color: blue;
+    color: #4b0082;
+    width: 20px;
+    height: 20px;
+    
+}
+#design{
+    position: relative;
+    top: 5px;
+    background-color: blue;
+    color: #4b0082;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+#ease-of-use{
+    position: relative;
+  
+}
+/* .stars input[type="radio"] {
+    display: none; 
+}  */
+
+/* .stars label:hover,
+.stars input[type="radio"]:checked + label {
+    color: gold; 
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+input[type="submit"] {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #4b0082;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    max-width: 400px;
+    margin-bottom: 25px;
+    color: white;
+} 
