@@ -1,7 +1,7 @@
 *{
     width: 100%;
     height: auto;
-    padding: auto;
+    padding: 0;
     margin: 2px;
 }
 
@@ -81,7 +81,7 @@ select{
     padding-bottom: 25px;
 }
 
-#italic{
+#italic, #italic2{
     color: blue;
 }
 

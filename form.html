@@ -7,6 +7,8 @@
     <meta name="description" content="Showing a form of review">
     <meta name="author" content="Mackison Jean Pierre">
     <link rel="stylesheet" href="week05/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <h1>Product Review</h1>
@@ -32,7 +34,6 @@
             
             <label for="star1">☆☆☆☆☆</label>
         </div>
- 
         <div class="radio-buttons">
             <input type="radio" id="star1" name="rating" value="1" required>
             <input type="radio" id="star2" name="rating" value="1" required>
@@ -40,17 +41,7 @@
             <input type="radio" id="star4" name="rating" value="1" required>
             <input type="radio" id="star5" name="rating" value="1" required>
 
-            <!-- <input type="radio" id="star1" name="rating" value="1" required>
-            <label for="star1">☆</label>
-            <input type="radio" id="star1" name="rating" value="1" required>
-            <label for="star1">☆☆</label>
-            <input type="radio" id="star1" name="rating" value="1" required>
-            <label for="star1">☆☆☆</label>
-            <input type="radio" id="star1" name="rating" value="1" required>
-            <label for="star1">☆☆☆☆</label>
-            <input type="radio" id="star1" name="rating" value="1" required>
-            <label for="star1">☆☆☆☆☆</label> -->
-            <!-- Repeat for 2-5 stars -->
+
         </div>
 
         <label for="date"><b>Date of Installation</b></label>
@@ -68,10 +59,10 @@
         <div class="checkbox">
             <label><b>Which features did you find useful in the product?</b> <br> <i>(Check all that apply)</i></label><br>
             <input type="checkbox" id="durability" name="features" value="Durability">
-            <label for="durabil">Durability</label><br>
+            <label for="durability">Durability</label><br>
             
             <input type="checkbox" id="ease-of-use" name="features" value="Ease of Use">
-            <label for="ease-of">Ease of Use</label><br>
+            <label for="ease-of-use">Ease of Use</label><br>
             
             <input type="checkbox" id="performance" name="features" value="Performance">
             <label for="performance">Performance</label><br>
@@ -85,7 +76,7 @@
         <label for="review"><b class="review">Written Review</b> <i id="italic">(Optional)</i></label> <br>
         <textarea id="review" name="review"></textarea> <br>
 
-        <label for="userName"> <b>Your Name</b> <i id="italic">(Optional)</i></label> <br>
+        <label for="userName"> <b>Your Name</b> <i id="italic2">(Optional)</i></label> <br>
         <input type="text" id="userName" name="userName"> <br>
 
         <input id="post-review" type="submit" value="Post Review"> <br>
@@ -96,6 +87,6 @@
         <p>&copy; 2024 &#x1F64F; Mackison <b>JEAN PIERRE</b> &#x1F64F;| Haiti <span id="copyright"></span></p>
         <p id="lastModified"></p>
     </footer>
-    <script src="week05/scripts/script.js"></script>
+    <script src="week05/scripts/script.js" defer></script>
 </body>
 </html>
