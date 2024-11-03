@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles/courses.css">
+</head>
+<body>
+    <header>
+        <h1>Our Courses</h1>
+        <p>We have courses for every level.</p>
+    </header>
+
+    <section class="filter-section">
+        <label for="level-filter">Filter by level:</label>
+        <select id="level-filter">
+            <option value="all">All</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+            <option value="special">Special</option>
+        </select>
+    </section>
+
+    <section class="courses">
+        <div class="course" data-level="beginner">
+            <h2>Beginner</h2>
+            <p>Learn the basics like everyday words and simple sentences.</p>
+        </div>
+        <div class="course" data-level="intermediate">
+            <h2>Intermediate</h2>
+            <p>Build your skills with more speaking, reading, and writing.</p>
+        </div>
+        <div class="course" data-level="advanced">
+            <h2>Advanced</h2>
+            <p>Perfect your English for work, school, or travel.</p>
+        </div>
+        <div class="course" data-level="special">
+            <h2>Special Courses</h2>
+            <p>Courses for business English, travel, or exams like TOEFL.</p>
+        </div>
+    </section>
+
+    <script src="scripts/courses.js"></script>
+</body>
+</html>
