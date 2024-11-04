@@ -12,3 +12,4 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         document.getElementById("formMessage").textContent = "Please fill out all fields.";
     }
 });
+

@@ -71,13 +71,15 @@ nav img{
     text-align: center;
 }
 .text_box h1{
-    font-size: 62px;
+    font-size: 50px;
 }
 .text_box p{
     margin: 10px 0 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 6px;
 }
 
 .hero-btn{
@@ -98,4 +100,51 @@ nav img{
     border: 1px solid red;
     background: #0040ff;
     transition: 1s;
+}
+
+footer{
+    background-color: #0040ff;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 25px;
+    color: white;
+    border: 1px solid red;
+}
+
+
+
+@media only screen and (max-width: 805px){
+
+    .text_box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .text_box h1{
+        font-size: 30px;
+    }
+    .text_box p{
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.4rem;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 3px;
+    }
+
+    footer{
+        background-color: #0040ff;
+        text-align: center;
+        width: auto;
+        padding: 30px;
+        margin-bottom: 25px;
+        color: white;
+        border: 1px solid red;
+    }
+
 }

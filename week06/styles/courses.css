@@ -11,6 +11,12 @@ body {
 header {
     text-align: center;
     margin: 20px 0;
+    background-color: #0040ff;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border: 3px solid red;
 }
 
 .filter-section {
@@ -40,4 +46,14 @@ header {
 .course h2 {
     margin: 0;
     color: #333;
+}
+
+footer{
+    background-color: #0040ff;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 25px;
+    color: white;
+    border: 3px solid red;
 }
